@@ -39,7 +39,6 @@ const SingleProduct = () => {
             .then((res) => setComments(res))
             .catch((err) => console.log(err))
     }
-    
     const [data, setData] = useState();
     const [otherArt, setOtherArt] = useState();
     const [commentSection, setcommentSection] = useState(false);
